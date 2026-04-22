@@ -1,0 +1,30 @@
+# Data (اختياري)
+data/
+dataset/
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+ai_env/
+
+# Model files
+*.keras
+*.h5
+*.pkl
+
+# Node
+node_modules/
+.next/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
