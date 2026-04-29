@@ -1,0 +1,2 @@
+Best k: 5
+Accuracy: 0.6639

@@ -1,0 +1,40 @@
+(ai_env) moundir@moundir-HP:~/myprojects/python/cats-dogs-ai$ python main.py
+📥 Loading data...
+Loading cats: 100%|███████████████████████████████████████████████████| 4001/4001 [00:28<00:00, 138.10it/s]
+Loading dogs: 100%|███████████████████████████████████████████████████| 4006/4006 [00:30<00:00, 132.55it/s]
+Loading cats: 100%|███████████████████████████████████████████████████| 1012/1012 [00:07<00:00, 139.78it/s]
+Loading dogs: 100%|███████████████████████████████████████████████████| 1013/1013 [00:07<00:00, 142.71it/s]
+
+Shape before PCA: (8005, 2864)
+
+🔻 Applying PCA...
+Shape after PCA: (8005, 200)
+
+🔍 Searching best K...
+k=1 → Accuracy=0.6555
+k=3 → Accuracy=0.7094
+k=5 → Accuracy=0.7639
+k=7 → Accuracy=0.6629
+
+🏆 Best Model:
+k = 5 | Accuracy = 0.7639
+
+📊 Final Results
+----------------------------------------
+Accuracy: 76.39%
+----------------------------------------
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        cats       0.78      0.46      0.58      1011
+        dogs       0.62      0.87      0.72      1012
+
+    accuracy                           0.76      2023
+   macro avg       0.70      0.66      0.65      2023
+weighted avg       0.70      0.66      0.65      2023
+
+
+Confusion Matrix:
+[[464 547]
+ [133 879]]
